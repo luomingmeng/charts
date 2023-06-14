@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  katalyst:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2023-06-14T08:15:08.598530215Z"
+    description: A Helm chart for Katalyst
+    digest: ad6b4644a501e71c6d3fc37e4309e83f638ec19691f6ddb3d0eb533af30f0295
+    name: katalyst
+    type: application
+    urls:
+    - https://github.com/luomingmeng/charts/releases/download/katalyst-0.2.0/katalyst-0.2.0.tgz
+    version: 0.2.0
+  malachite:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-14T08:15:08.755385764Z"
+    description: A Helm chart for Malachite
+    digest: 503c5310d46475fde393427702a8d2888e3e5e6773ed6b0654d02ae6a83824c4
+    name: malachite
+    type: application
+    urls:
+    - https://github.com/luomingmeng/charts/releases/download/malachite-0.1.0/malachite-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-14T08:15:08.755391764Z"
