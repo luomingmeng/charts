@@ -51,6 +51,33 @@ entries:
     urls:
     - https://github.com/luomingmeng/charts/releases/download/katalyst-agent-0.5.0/katalyst-agent-0.5.0.tgz
     version: 0.5.0
+  katalyst-colocation:
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2024-01-16T17:01:06.8989314Z"
+    dependencies:
+    - name: katalyst-webhook
+      repository: file://../webhook
+      version: 0.4.0
+    - name: katalyst-controller
+      repository: file://../controller
+      version: 0.4.0
+    - name: katalyst-metric
+      repository: file://../metric
+      version: 0.4.0
+    - name: katalyst-scheduler
+      repository: file://../scheduler
+      version: 0.4.0
+    - name: katalyst-agent
+      repository: file://../agent
+      version: 0.4.0
+    description: A Helm chart for Katalyst colocation
+    digest: 519170701ae02d797e3c4cd43af43bcac221b1f0caa4483e481d69b262f71bce
+    name: katalyst-colocation
+    type: application
+    urls:
+    - https://github.com/luomingmeng/charts/releases/download/katalyst-colocation-0.4.0/katalyst-colocation-0.4.0.tgz
+    version: 0.4.0
   katalyst-controller:
   - apiVersion: v2
     created: "2024-01-15T08:41:14.895861162Z"
@@ -61,6 +88,16 @@ entries:
     urls:
     - https://github.com/luomingmeng/charts/releases/download/katalyst-controller-0.5.0/katalyst-controller-0.5.0.tgz
     version: 0.5.0
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2024-01-16T17:01:07.109557507Z"
+    description: A Helm chart for Katalyst-controller
+    digest: 14a76e49eb5d77b99db65f6d8521b21e58db02156ac5858b17b7c9badb51decd
+    name: katalyst-controller
+    type: application
+    urls:
+    - https://github.com/luomingmeng/charts/releases/download/katalyst-controller-0.4.0/katalyst-controller-0.4.0.tgz
+    version: 0.4.0
   katalyst-metric:
   - apiVersion: v2
     created: "2024-01-15T08:41:15.100232859Z"
@@ -71,6 +108,24 @@ entries:
     urls:
     - https://github.com/luomingmeng/charts/releases/download/katalyst-metric-0.5.0/katalyst-metric-0.5.0.tgz
     version: 0.5.0
+  katalyst-overcommit:
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2024-01-16T17:01:07.332108683Z"
+    dependencies:
+    - name: katalyst-webhook
+      repository: file://../webhook
+      version: 0.4.0
+    - name: katalyst-controller
+      repository: file://../controller
+      version: 0.4.0
+    description: A Helm chart for Katalyst overcommit
+    digest: a69a39dc9c82b196dbc17736f873331ac0b3cbea84cd2e2395f737cd2f8a3559
+    name: katalyst-overcommit
+    type: application
+    urls:
+    - https://github.com/luomingmeng/charts/releases/download/katalyst-overcommit-0.4.0/katalyst-overcommit-0.4.0.tgz
+    version: 0.4.0
   katalyst-scheduler:
   - apiVersion: v2
     created: "2024-01-15T08:41:15.315199815Z"
@@ -81,6 +136,21 @@ entries:
     urls:
     - https://github.com/luomingmeng/charts/releases/download/katalyst-scheduler-0.5.0/katalyst-scheduler-0.5.0.tgz
     version: 0.5.0
+  katalyst-tidal-colocation:
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2024-01-16T17:01:07.545616131Z"
+    dependencies:
+    - name: katalyst-controller
+      repository: file://../controller
+      version: 0.4.0
+    description: A Helm chart for Katalyst tidal colocation
+    digest: 76311cae393164205577f1ffc203907890ca7aa00571bd3219fa7eb5f4ec4e6c
+    name: katalyst-tidal-colocation
+    type: application
+    urls:
+    - https://github.com/luomingmeng/charts/releases/download/katalyst-tidal-colocation-0.4.0/katalyst-tidal-colocation-0.4.0.tgz
+    version: 0.4.0
   katalyst-webhook:
   - apiVersion: v2
     created: "2024-01-15T08:41:15.549583708Z"
@@ -91,6 +161,16 @@ entries:
     urls:
     - https://github.com/luomingmeng/charts/releases/download/katalyst-webhook-0.5.0/katalyst-webhook-0.5.0.tgz
     version: 0.5.0
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2024-01-16T17:01:07.760041151Z"
+    description: A Helm chart for Katalyst-webhook
+    digest: b18f90a1f83b6a07d7df7dede08fabac7279b8732234b58e32ef2b1a090bcbfe
+    name: katalyst-webhook
+    type: application
+    urls:
+    - https://github.com/luomingmeng/charts/releases/download/katalyst-webhook-0.4.0/katalyst-webhook-0.4.0.tgz
+    version: 0.4.0
   malachite:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -102,4 +182,4 @@ entries:
     urls:
     - https://github.com/luomingmeng/charts/releases/download/malachite-0.1.0/malachite-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-15T08:41:15.549602664Z"
+generated: "2024-01-16T17:01:07.760057441Z"
